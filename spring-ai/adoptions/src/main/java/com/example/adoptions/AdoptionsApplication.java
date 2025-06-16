@@ -52,6 +52,9 @@ public class AdoptionsApplication {
                 .build();
     }
 
+    /**
+     * link with com.example.scheduler.SchedulerApplication port
+     */
     @Bean
     McpSyncClient mcpSyncClient() {
         var mcp = McpClient
